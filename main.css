@@ -1,0 +1,92 @@
+
+.corpo{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('background-cadastro.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.botao-voltar{
+  padding: 30px;
+  width: 24px;
+
+}
+
+.form-cadastro{
+  margin: 30% auto auto auto;
+  padding: 30px;
+
+}
+
+.form-cadastro__titulo{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Signika', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #6e6e6e;
+}
+
+.form-cadastro__campo {
+  display: block;
+  padding: 5px;
+  margin: 20px 0 10px 0;
+  width: 100%;
+  border: none; 
+  border-bottom: 1px solid #6e6e6e;
+  background-color: transparent;
+}
+
+::placeholder {
+  font-family: 'Signika', sans-serif;
+  color: #6e6e6e;
+  text-align: center;
+}
+
+.form-cadastro__botao {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  padding: 12px;
+  margin: 30px auto;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1em;
+  border: none;
+  color: white;
+  background-color: #e64731;
+  width: 100%;
+}
+
+.login-option{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login-option__title{
+	display: inline-block;
+  margin: 0;
+	font-family: 'Signika', sans-serif;
+	letter-spacing: 2px;
+	font-size: 13px;
+}
+
+.login-option__button{
+	display: inline-block;
+	margin-left: 3px;
+	padding: 2px 6px;
+	text-decoration: none;
+	font-family: 'Signika', sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color:  #e64731 ;
+	background-color: #fff;
+-webkit-box-shadow: 0px 0px 3px -1px rgba(168,166,168,1);
+-moz-box-shadow: 0px 0px 3px -1px rgba(168,166,168,1);
+box-shadow: 0px 0px 3px -1px rgba(168,166,168,1);
+}

@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+}
+
+
+.box-buttons{
+  display: absolute;
+  width: 100%;
+  margin: auto;
+  padding: 1em 0; 
+
+}
+.index-hero{
+  width: 100%;
+  height:50%;
+}
+
+
+.login-facebook {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  margin: 1em auto;
+  padding: 2em 3.7em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+  font-size: 0.8em;
+  border: none;
+  color: white;
+  background-color: #4C69BA;
+}
+
+.break{
+  position: relative;
+  height: 2px;
+  background: black;
+}
+}
+.break-page{
+  box-sizing: border-box;
+  width: 100%;
+}
+.break-or{
+    display: block;
+    position: absolute;
+    top: -84%;
+    left: calc(50% - 1em);
+    padding: .5em;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.login-complicated {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  margin:1em auto;
+  padding: 2em 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.8em;
+  border: none;
+  margin: 0 auto;
+  color: white;
+  background-color: #e64731;
+}
+
+
+.login-option{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login-option__title{
+  display: inline;
+  font-family: 'Signika', sans-serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.login-option__button{
+  display: inline;
+  margin-left: 3px;
+  padding: 2px 6px;
+  text-decoration: none;
+  font-family: 'Signika', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color:  #e64731 ;
+  background-color: #fff;
+-webkit-box-shadow: 0px 0px 3px -1px rgba(168,166,168,1);
+-moz-box-shadow: 0px 0px 3px -1px rgba(168,166,168,1);
+box-shadow: 0px 0px 3px -1px rgba(168,166,168,1);
+
+}
